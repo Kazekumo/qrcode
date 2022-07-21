@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react'
 import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
 import './App.css'
 import Encode from './Encode'
 import EncodeFile from './EncodeFile'
@@ -19,7 +20,7 @@ function App() {
     <div className="App">
       <div>
         <a onClick={() => setState(0)}>
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+          <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a onClick={() => setState(1)}>
           <img src={reactLogo} className="logo react" alt="React logo" />
